@@ -1,13 +1,18 @@
 class Power extends ConsoleProgram {
 
   /**
-  * Description
-  * @author:
+  * exponentiate two numbers
+  * @author:chris
   */
   
   public void run() {
     
-    // start coding here
+    double  intA = readInt("A: ");
+    double  intB = readInt("B:");
+    double intResult = Math.pow(intA, intB);
+    System.out.println(intResult);
+
+
     
   }
 }

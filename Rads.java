@@ -1,13 +1,16 @@
 class Rads extends ConsoleProgram {
 
   /**
-  * Description
+  * deg to rad
   * @author:
   */
   
   public void run() {
     
-    // start coding here
+    double degrees = readDouble("Enter degrees: ");
+    double radians = Math.toRadians(degrees);
+    System.out.println("Radians: " + radians);
     
+
   }
 }

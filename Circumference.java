@@ -1,13 +1,16 @@
 class Circumference extends ConsoleProgram {
 
   /**
-  * Description
+  * Circumeference of circle from radius
   * @author:
   */
   
   public void run() {
     
-    // start coding here
+   double rad = readDouble("enter the radius: ");
+   double circum = 2 * rad * Math.PI;
+
+   System.out.println("circumference is" + circum);
     
   }
 }
